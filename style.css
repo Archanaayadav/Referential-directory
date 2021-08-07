@@ -1,0 +1,95 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+
+thead{
+  color: #fff;
+}
+
+tbody{
+  /* color: rgb(144, 87, 14); */
+  color: rgb(95, 93, 93);
+  font-weight: bold;
+}
+
+#showcase{
+  background: url('/pexels-anna-nekrashevich-8533225.jpg') no-repeat center center/cover ;
+  /* position: relative; */
+  height: 100vh;
+}
+
+.showcase-content{
+
+  position: absolute;  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+
+} 
+
+.container{
+margin-top: 30px;
+}
+
+.container h1{
+color: #fff;
+text-align: center;
+}
+.container input{
+background: transparent;
+}
+
+input::placeholder, input[type='submit']{
+color: #333;
+}
+
+.success, .error{
+color: #fff;
+padding: 5px;
+margin: 5px 0 15px 0;
+}
+
+.success{
+background: green;
+}
+
+.error{
+background: red;
+}
+
+#direct-form input{
+  border-color: #ccc;
+}
+
+input{
+  color: rgb(233, 228, 228);
+}
+
+input[type='submit']{
+  background: #f4f4f4;
+  color: #333;
+  transition: all 0.3s ease-in;
+  border: none;
+}  
+
+input[type='submit']:hover{
+  background: #333;
+  color: #fff;
+}
+
+.submit{
+  text-align: center;
+}
